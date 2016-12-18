@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Username"
+            android:id="@+id/textViewUserName"
+            android:layout_margin="5dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/editTextUserName"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Name"
+            android:id="@+id/textViewName"
+            android:layout_margin="5dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/editTextName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Email"
+            android:id="@+id/textViewEmail"
+            android:layout_margin="5dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/editTextUserEmail"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Address"
+        android:id="@+id/textViewAddress"
+        android:layout_margin="5dp"
+        android:textSize="10pt"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:id="@+id/editTextAddress"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Mobile No"
+            android:id="@+id/textViewMobileNo"
+            android:layout_margin="5dp"
+            android:textSize="10pt"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/editTextMobileNo"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

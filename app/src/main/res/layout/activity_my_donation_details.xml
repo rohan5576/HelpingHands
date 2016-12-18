@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cdac.project.helpinghands.MyDonationDetailsActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:padding="5dp"
+    android:background="#bb2248">
+
+    <!--<LinearLayout-->
+       <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="DonateId"-->
+            <!--android:enabled="false"-->
+            <!--android:textSize="10pt"/>-->
+        <!--<EditText-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#f3f3f3"-->
+             <!--android:layout_marginLeft="50dp"-->
+            <!--android:enabled="false"-->
+            <!--android:id="@+id/editTextDonate"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Food\nDescription"
+            android:textSize="8pt"
+            />
+        <EditText
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextFoodDesc"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="FoodValue"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextFoodValue"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Available\nDate"
+            android:textSize="8pt"/>
+
+
+
+        <EditText
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextAvailDate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+
+            android:text="ExpiryDate"
+            android:textSize="8pt"/>
+        <EditText
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextExpiryDate"
+           />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Available\nTime"
+            android:textSize="8pt"/>
+        <EditText
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextAvailableTime"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="ExpiryTime"
+            android:textSize="8pt"/>
+        <EditText
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextExpiryTime"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+      <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="UserId"-->
+            <!--android:textSize="10pt"/>-->
+        <!--<EditText-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#f3f3f3"-->
+            <!--android:id="@+id/editTextUserID"/>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Address"
+            android:textSize="8pt"/>\
+
+        <EditText
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+
+            android:id="@+id/editTextAddress"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:text="Status"-->
+            <!--android:textSize="10pt"/>-->
+        <!--<EditText-->
+
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#f3f3f3"-->
+            <!--android:id="@+id/editTextStatus"/>-->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDonate"
+        android:text="Donate"
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:background="#f6a7ef" />
+
+
+</LinearLayout>
